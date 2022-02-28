@@ -6,13 +6,17 @@
 
 On the command line, navigate to the folder containing your Azure Functions CSPROJ and enter the following command: `func start --verbose`
 
+## Server
+
+> srv-ola.database.windows.net
+
 ## Database
 
-db-boiler
+> db-boiler
 
-### Tables
+## Tables
 
-#### BoilerLog
+### BoilerLog
 
 | Column | Datatype |
 |:-------|:---------|
@@ -28,7 +32,7 @@ CREATE TABLE BoilerLog (
 )
 ```
 
-#### BoilerSensors
+### BoilerSensors
 
 | Column | Datatype |
 |:-------|:---------|
